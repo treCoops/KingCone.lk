@@ -1,5 +1,5 @@
 <footer>
-    <div class="bgWhite">
+    <div class="bgBlack">
         <div class="container">
             <!-- Contacts -->
             <h4 class="h4 contentShortcode">
@@ -53,6 +53,6 @@
         </div>
     </div>
 </footer>
-<div class="emptySpace60"></div>
+<div class="emptySpace60 backgroundBlack"></div>
 
 

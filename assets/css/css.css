@@ -1,30 +1,38 @@
+/*@font-face {*/
+/*  font-family: 'Berkshire Swash';*/
+/*  font-style: normal;*/
+/*  font-weight: 400;*/
+/*  src: url(../fonts/ptRRTi-cavZOGqCvnNJDl5m5XmN_qs42.ttf) format('truetype');*/
+/*}*/
+
 @font-face {
   font-family: 'Berkshire Swash';
   font-style: normal;
   font-weight: 400;
-  src: url(../fonts/ptRRTi-cavZOGqCvnNJDl5m5XmN_qs42.ttf) format('truetype');
+  src: url(../fonts/Kong.otf) format('truetype');
 }
+
 @font-face {
   font-family: 'Noticia Text';
   font-style: normal;
   font-weight: 400;
-  src: url(../fonts/VuJ2dNDF2Yv9qppOePKYRP12Zjtd.ttf) format('truetype');
+  src: url(../fonts/Kong.otf) format('truetype');
 }
 @font-face {
   font-family: 'Noticia Text';
   font-style: normal;
   font-weight: 700;
-  src: url(../fonts/VuJpdNDF2Yv9qppOePKYRP1-3R5NuGvV.ttf) format('truetype');
+  src: url(../fonts/Kong.otf) format('truetype');
 }
 @font-face {
   font-family: 'Philosopher';
   font-style: normal;
   font-weight: 400;
-  src: url(../fonts/vEFV2_5QCwIS4_Dhez5jcWBuT0g.ttf) format('truetype');
+  src: url(../fonts/Kong.otf) format('truetype');
 }
 @font-face {
   font-family: 'Philosopher';
   font-style: normal;
   font-weight: 700;
-  src: url(../fonts/vEFI2_5QCwIS4_Dhez5jcWjValgb8tI.ttf) format('truetype');
+  src: url(../fonts/Kong.otf) format('truetype');
 }

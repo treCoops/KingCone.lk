@@ -65,7 +65,7 @@
 }
 
 .loaderShapeRight {
-    background: url(../img/loader-shape2.png) no-repeat center center;
+    background: url(../img/Kong/leftLoader.png) no-repeat center center;
     animation: spinLeft 5s linear infinite;
 }
 
@@ -75,7 +75,7 @@
 }
 
 .loaderLogo {
-    background: url(../img/invisio.png) no-repeat center center;
+    background: url(../img/Kong/logo.png) no-repeat center center;
     animation: loaderOpacity 800ms linear infinite alternate;
 }
 
@@ -406,7 +406,7 @@ body {
 .h4,
 .h5,
 .h6 {
-    font-family: 'Berkshire Swash', sans-serif;
+    font-family: 'Berkshire Swash', Kong;
     padding: 0px;
     margin: 0px;
     font-weight: 900;
@@ -440,6 +440,10 @@ body {
 .h6 {
     font-size: 14px;
     line-height: 18px;
+}
+
+.backgroundBlack {
+    background: black;
 }
 
 
@@ -1142,7 +1146,7 @@ header {
     margin-left: -150px;
 	width: 300px;
 	height: 180px;
-	background: url(../img/logo-bg.png) no-repeat 50% 0%;
+	/*background: url(../img/logo-bg.png) no-repeat 50% 0%;*/
     -webkit-transition: all 150ms linear;
     transition: all 150ms linear;
 }
@@ -1782,6 +1786,11 @@ header.scrolled {
     position: relative;
 }
 
+.bgBlack {
+    background: #000;
+    position: relative;
+}
+
 .bgWhite .h1,
 .bgWhite .h2,
 .bgWhite .h3,
@@ -1837,7 +1846,7 @@ header.scrolled {
 .bgImages .h4,
 .bgImages .h5,
 .bgImages .h6 {
-    color: #fff;
+    color: #fec300;
 }
 
 .bgImages .h3,

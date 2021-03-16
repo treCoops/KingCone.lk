@@ -8,8 +8,8 @@
 <body>
 <!-- LOADER -->
 <div id="loader-wrapper">
-    <div class="loaderShortcode loaderShapeRight"></div>
-    <div class="loaderShortcode loaderShapeLeft"></div>
+<!--    <div class="loaderShortcode loaderShapeRight"></div>-->
+<!--    <div class="loaderShortcode loaderShapeLeft"></div>-->
     <div class="loaderShortcode loaderLogo"></div>
 </div>
 

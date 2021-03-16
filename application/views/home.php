@@ -2,28 +2,28 @@
 <div class="bgImages">
     <div class="swiper-container" data-loop="1">
         <div class="arrowWrapper">
-            <div class="swiper-button-prev hidden-xs hidden-sm spin spin2">
+            <div class="swiper-button-prev hidden-xs hidden-sm spin spin2" style="height: 0;">
                 <img class="arrowShortcode" src="<?php echo base_url('assets') ?>/img/left-hover-arrow.png" alt>
             </div>
-            <div class="swiper-button-next hidden-xs hidden-sm spin spin2">
+            <div class="swiper-button-next hidden-xs hidden-sm spin spin2" style="height: 0;">
                 <img class="arrowShortcode" src="<?php echo base_url('assets') ?>/img/right-hover-arrow.png" alt>
             </div>
         </div>
         <div class="swiper-wrapper">
             <!-- Slide-1 -->
-            <div class="swiper-slide opacityLayer" style="background-image: url(assets/img/header-slide.jpg); background-position: 50% 50%; background-size: cover;">
+            <div class="swiper-slide opacityLayer" style="background-image: url(assets/img/Kong/KONG1.jpg); background-position: 50% 50%; background-size: cover;">
                 <div class="container">
                     <div class="cell-view tableCellVH">
                         <div class="emptySpace150"></div>
                         <div class="row">
                             <div class="col-md-8 col-md-offset-2">
                                 <div class="big titleShortcode">
-                                    <h3 class="h3">The Taste Of Our</h3>
-                                    <h2 class="h1">Amazing <span>Cakes</span></h2>
-                                    <div class="emptySpace5"></div>
-                                    <p>Proin mattis rutrum magna, et pretium erat tincidunt at. Donec lectus ipsum, pulvinar id sollicitudin id, bibendum vel quam. Suspendisse nec ante non lacusvel sed sem </p>
-                                    <div class="emptySpace55 emptySpace-xs25"></div>
-                                    <a href="products.html" class="button">View our delicious products</a>
+                                    <h2 class="h1">ICE CREAM<sup>2</sup></h2>
+<!--                                    <h2 class="h1">Amazing <span>Cakes</span></h2>-->
+<!--                                    <div class="emptySpace5"></div>-->
+<!--                                    <p>Proin mattis rutrum magna, et pretium erat tincidunt at. Donec lectus ipsum, pulvinar id sollicitudin id, bibendum vel quam. Suspendisse nec ante non lacusvel sed sem </p>-->
+<!--                                    <div class="emptySpace55 emptySpace-xs25"></div>-->
+<!--                                    <a href="products.html" class="button">View our delicious products</a>-->
                                 </div>
                             </div>
                         </div>
@@ -32,40 +32,15 @@
                 </div>
             </div>
             <!-- Slide-2 -->
-            <div class="swiper-slide opacityLayer" style="background-image: url(assets/img/header-slide2.jpg); background-position: 50% 50%; background-size: cover;">
+            <div class="swiper-slide opacityLayer" style="background-image: url(assets/img/Kong/KONG2.jpg); background-position: 50% 50%; background-size: cover;">
                 <div class="container">
                     <div class="cell-view tableCellVH">
                         <div class="emptySpace150"></div>
                         <div class="row">
                             <div class="col-md-8 col-md-offset-2">
                                 <div class="big titleShortcode">
-                                    <h3 class="h3">The Taste Of Our</h3>
-                                    <h2 class="h1">Sweet <span>Chocolate</span></h2>
-                                    <div class="emptySpace5"></div>
-                                    <p>Proin mattis rutrum magna, et pretium erat tincidunt at. Donec lectus ipsum, pulvinar id sollicitudin id, bibendum vel quam. Suspendisse nec ante non lacusvel sed sem </p>
-                                    <div class="emptySpace50 emptySpace-xs25"></div>
-                                    <a href="products.html" class="button">View our delicious products</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="emptySpace150"></div>
-                    </div>
-                </div>
-            </div>
-            <!-- Slide-3 -->
-            <div class="swiper-slide opacityLayer" style="background-image: url(assets/img/header-slide3.jpg); background-position: 50% 50%; background-size: cover;">
-                <div class="container">
-                    <div class="cell-view tableCellVH">
-                        <div class="emptySpace150"></div>
-                        <div class="row">
-                            <div class="col-md-8 col-md-offset-2">
-                                <div class="big titleShortcode">
-                                    <h3 class="h3">The Taste Of Our</h3>
-                                    <h2 class="h1">Cheesecakes</h2>
-                                    <div class="emptySpace5"></div>
-                                    <p>Proin mattis rutrum magna, et pretium erat tincidunt at. Donec lectus ipsum, pulvinar id sollicitudin id, bibendum vel quam. Suspendisse nec ante non lacusvel sed sem </p>
-                                    <div class="emptySpace50 emptySpace-xs25"></div>
-                                    <a href="products.html" class="button">View our delicious products</a>
+                                    <h2 class="h1">ICE CREAM<sup>2</sup></h2>
+<!--                                    <a href="products.html" class="button">View our delicious products</a>-->
                                 </div>
                             </div>
                         </div>
@@ -77,21 +52,21 @@
         <div class="swiper-pagination swiper-pagination-white"></div>
     </div>
 </div>
-<div class="emptySpace-xs60 emptySpace120"></div>
+<div class="emptySpace-xs60 emptySpace120 backgroundBlack"></div>
 
 <!-- Goodies -->
-<div class="bgWhite">
+<div class="bgBlack">
     <div class="container">
         <div class="row">
             <!-- Goodies-Title -->
             <div class="col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
                 <div class="big titleShortcode">
-                    <h5 class="h5">The Sweetest Choice Of</h5>
+                    <h5 class="h3" style="color: goldenrod">Place</h5>
                     <div class="emptySpace15"></div>
-                    <h2 class="h2 bottomLine">Goodies That We Do</h2>
+                    <h2 class="h2 bottomLine">How to an order.</h2>
                     <div class="emptySpace30"></div>
-                    <p>Proin mattis rutrum magna, et pretium erat tincidunt at. Donec lectus ipsum, pulvinar id sollicitudin id, bibendum vel quam. </p>
-                    <div class="emptySpace75 emptySpace-xs30"></div>
+<!--                    <p>Proin mattis rutrum magna, et pretium erat tincidunt at. Donec lectus ipsum, pulvinar id sollicitudin id, bibendum vel quam. </p>-->
+<!--                    <div class="emptySpace75 emptySpace-xs30"></div>-->
                 </div>
             </div>
         </div>
@@ -102,19 +77,19 @@
                     <!-- Slide-1 -->
                     <div class="swiper-slide">
                         <div class="normall goodiesShortcode">
-                            <a href="products-detail.html"><h4 class="h4">Colorful Muffins</h4></a>
+                            <a href="products-detail.html"><h4 class="h4">Direct Delivery</h4></a>
                             <div class="emptySpace25"></div>
-                            <a class="imgLayer" href="products-detail.html"><img class="imgShortcode" src="<?php echo base_url('assets') ?>/img/main-slide.jpg" alt> <span></span><span></span></a>
+                            <a class="" style="position: relative; display: inline-block; overflow: hidden" href="products-detail.html"><img class="imgShortcode" src="<?php echo base_url('assets') ?>/img/Kong/delivery.png" alt> <span></span><span></span></a>
                             <div class="emptySpace5"></div>
-                            <p>Suspendisse potenti. Etiam non euismod augue. Nam aliquam sit amet tortor sit amet consectetur.</p>
+                             <p>Suspendisse potenti. Etiam non euismod augue. Nam aliquam sit amet tortor sit amet consectetur.</p>
                         </div>
                     </div>
                     <!-- Slide-2 -->
                     <div class="swiper-slide">
                         <div class="normall goodiesShortcode">
-                            <a href="products-detail.html"><h3 class="h4">Sweet Cheesecakes</h3></a>
+                            <a href="products-detail.html"><h3 class="h4">Uber Eats</h3></a>
                             <div class="emptySpace25"></div>
-                            <a class="imgLayer" href="products-detail.html"><img class="imgShortcode" src="<?php echo base_url('assets') ?>/img/main-slide2.jpg" alt><span></span><span></span></a>
+                            <a class="" style="position: relative; display: inline-block; overflow: hidden;" href="products-detail.html"><img class="imgShortcode" src="<?php echo base_url('assets') ?>/img/Kong/uber.png" alt><span></span><span></span></a>
                             <div class="emptySpace5"></div>
                             <p>Suspendisse potenti. Etiam non euismod augue. Nam aliquam sit amet tortor sit amet consectetur.</p>
                         </div>
@@ -122,9 +97,9 @@
                     <!-- Slide-3 -->
                     <div class="swiper-slide">
                         <div class="normall goodiesShortcode">
-                            <a href="products-detail.html"><h4 class="h4 ">Crunchy Cookies</h4></a>
+                            <a href="products-detail.html"><h4 class="h4 ">Pick Up</h4></a>
                             <div class="emptySpace25"></div>
-                            <a class="imgLayer" href="products-detail.html"><img class="imgShortcode" src="<?php echo base_url('assets') ?>/img/main-slide3.jpg" alt><span></span><span></span></a>
+                            <a class="" style="position: relative; display: inline-block; overflow: hidden" href="products-detail.html"><img class="imgShortcode" src="<?php echo base_url('assets') ?>/img/Kong/takeAway.png" alt><span></span><span></span></a>
                             <div class="emptySpace5"></div>
                             <p>Suspendisse potenti. Etiam non euismod augue. Nam aliquam sit amet tortor sit amet consectetur.</p>
                         </div>
@@ -132,74 +107,34 @@
                     <!-- Slide-4 -->
                     <div class="swiper-slide">
                         <div class="normall goodiesShortcode">
-                            <a href="products-detail.html"><h4 class="h4">Delicious Cakes</h4></a>
+                            <a href="products-detail.html"><h4 class="h4">Eat In</h4></a>
                             <div class="emptySpace25"></div>
-                            <a class="imgLayer" href="products-detail.html"><img class="imgShortcode" src="<?php echo base_url('assets') ?>/img/main-slide4.jpg" alt><span></span><span></span></a>
-                            <div class="emptySpace5"></div>
-                            <p>Suspendisse potenti. Etiam non euismod augue. Nam aliquam sit amet tortor sit amet consectetur.</p>
-                        </div>
-                    </div>
-                    <!-- Slide-5 -->
-                    <div class="swiper-slide">
-                        <div class="normall goodiesShortcode">
-                            <a href="products-detail.html"><h4 class="h4">Sweet Cheesecakes</h4></a>
-                            <div class="emptySpace25"></div>
-                            <a class="imgLayer" href="products-detail.html"><img class="imgShortcode" src="<?php echo base_url('assets') ?>/img/main-slide2.jpg" alt><span></span><span></span></a>
-                            <div class="emptySpace5"></div>
-                            <p>Suspendisse potenti. Etiam non euismod augue. Nam aliquam sit amet tortor sit amet consectetur.</p>
-                        </div>
-                    </div>
-                    <!-- Slide-6 -->
-                    <div class="swiper-slide">
-                        <div class="normall goodiesShortcode">
-                            <a href="products-detail.html"><h4 class="h4">Crunchy Cookies</h4></a>
-                            <div class="emptySpace25"></div>
-                            <a class="imgLayer" href="products-detail.html"><img class="imgShortcode" src="<?php echo base_url('assets') ?>/img/main-slide3.jpg" alt><span></span><span></span></a>
-                            <div class="emptySpace5"></div>
-                            <p>Suspendisse potenti. Etiam non euismod augue. Nam aliquam sit amet tortor sit amet consectetur.</p>
-                        </div>
-                    </div>
-                    <!-- Slide-7 -->
-                    <div class="swiper-slide">
-                        <div class="normall goodiesShortcode">
-                            <a href="products-detail.html"><h4 class="h4">Delicious Cakes</h4></a>
-                            <div class="emptySpace25"></div>
-                            <a class="imgLayer" href="products-detail.html"><img class="imgShortcode" src="<?php echo base_url('assets') ?>/img/main-slide.jpg" alt><span></span><span></span></a>
-                            <div class="emptySpace5"></div>
-                            <p>Suspendisse potenti. Etiam non euismod augue. Nam aliquam sit amet tortor sit amet consectetur.</p>
-                        </div>
-                    </div>
-                    <!-- Slide-8 -->
-                    <div class="swiper-slide">
-                        <div class="normall goodiesShortcode">
-                            <a href="products-detail.html"><h4 class="h4">Colorful Muffins</h4></a>
-                            <div class="emptySpace25"></div>
-                            <a class="imgLayer" href="products-detail.html"><img class="imgShortcode" src="<?php echo base_url('assets') ?>/img/main-slide4.jpg" alt><span></span><span></span></a>
+                            <a class="" style="position: relative; display: inline-block; overflow: hidden" href="products-detail.html"><img class="imgShortcode" src="<?php echo base_url('assets') ?>/img/Kong/dineIn.png" alt><span></span><span></span></a>
                             <div class="emptySpace5"></div>
                             <p>Suspendisse potenti. Etiam non euismod augue. Nam aliquam sit amet tortor sit amet consectetur.</p>
                         </div>
                     </div>
                 </div>
                 <!-- Swiper-Arrow -->
-                <div class="arrowWrapper">
-                    <div class="swiper-button-prev hidden-xs hidden-sm spin spin2">
-                        <img class="arrowShortcode" src="<?php echo base_url('assets') ?>/img/left-hover-arrow.png" alt>
-                    </div>
-                    <div class="swiper-button-next hidden-xs hidden-sm spin spin2">
-                        <img class="arrowShortcode" src="<?php echo base_url('assets') ?>/img/right-hover-arrow.png" alt>
-                    </div>
-                </div>
+<!--                <div class="arrowWrapper">-->
+<!--                    <div class="swiper-button-prev hidden-xs hidden-sm spin spin2">-->
+<!--                        <img class="arrowShortcode" src="--><?php //echo base_url('assets') ?><!--/img/left-hover-arrow.png" alt>-->
+<!--                    </div>-->
+<!--                    <div class="swiper-button-next hidden-xs hidden-sm spin spin2">-->
+<!--                        <img class="arrowShortcode" src="--><?php //echo base_url('assets') ?><!--/img/right-hover-arrow.png" alt>-->
+<!--                    </div>-->
+<!--                </div>-->
                 <div class="swiper-pagination relative-pagination swiper-pagination-black visible-xs visible-sm"></div>
             </div>
         </div>
         <div class="emptySpace55 emptySpace-sm20"></div>
         <!-- Button -->
-        <div class="btnAlign">
-            <a href="products-detail.html" class="button">Look for more</a>
-        </div>
+<!--        <div class="btnAlign">-->
+<!--            <a href="products-detail.html" class="button">Look for more</a>-->
+<!--        </div>-->
     </div>
 </div>
-<div class="emptySpace-xs60 emptySpace130"></div>
+<div class="emptySpace-xs60 emptySpace130 backgroundBlack"></div>
 
 <!-- Product -->
 <div class="bgImages">
@@ -315,10 +250,10 @@
         <div class="swiper-pagination swiper-pagination-white visible-xs visible-sm"></div>
     </div>
 </div>
-<div class="emptySpace-xs60 emptySpace120"></div>
+<div class="emptySpace-xs60 emptySpace120 backgroundBlack"></div>
 
 <!-- Sweet-Selection -->
-<div class="bgWhite">
+<div class="bgBlack">
     <div class="container">
         <div class="row">
             <!-- Sweet-Selection-Title -->
@@ -442,10 +377,10 @@
         <div class="btnAlign"><a href="blog.html" class="button">Look for more</a></div>
     </div>
 </div>
-<div class="emptySpace-xs60 emptySpace120"></div>
+<div class="emptySpace-xs60 emptySpace120 backgroundBlack"></div>
 
 <!-- Services -->
-<div class="bgWhite">
+<div class="bgBlack">
     <div class="container">
         <div class="row">
             <!-- Services-Title -->
@@ -499,7 +434,7 @@
         <div class="btnAlign"><a href="services.html" class="button">View All Services</a></div>
     </div>
 </div>
-<div class="emptySpace-xs60 emptySpace130"></div>
+<div class="emptySpace-xs60 emptySpace130 backgroundBlack"></div>
 
 <!-- About-Us -->
 <div class="bgImages opacityLayer" style="background-image: url(assets/img/about-us.jpg); background-position: 50% 50%; background-size: cover">
@@ -620,4 +555,4 @@
     </div>
     <div class="emptySpace35"></div>
 </div>
-<div class="emptySpace80 emptySpace-xs40"></div>
+<div class="emptySpace80 emptySpace-xs40 backgroundBlack"></div>
