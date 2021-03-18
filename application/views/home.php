@@ -274,7 +274,7 @@
                 <div class="normall contentShortcode">
                     <a href="products.html"><h4 class="h4">Chocolate Muffin</h4></a>
                     <div class="emptySpace-xs15 emptySpace25"></div>
-                    <a class="imgLayer" href="products.html"><img class="imgShortcode" src="<?php echo base_url('assets') ?>/img/sweet-img.jpg" alt><span></span><span></span></a>
+                    <a class="imgLayer" href="products.html"><img class="imgShortcode" src="<?php echo base_url('assets') ?>/img/Kong/products/Arabica.png" alt><span></span><span></span></a>
                     <div class="emptySpace5"></div>
                     <p>Suspendisse potenti. Etiam non euismod augue. Nam aliquam sit amet tortor sit amet consectetur.</p>
                     <div class="emptySpace20"></div>
@@ -287,7 +287,7 @@
                 <div class="normall contentShortcode">
                     <a href="products.html"><h4 class="h4">Berry Cheesecake</h4></a>
                     <div class="emptySpace-xs15 emptySpace25"></div>
-                    <a class="imgLayer" href="products.html"><img class="imgShortcode" src="<?php echo base_url('assets') ?>/img/sweet-img2.jpg" alt><span></span><span></span></a>
+                    <a class="imgLayer" href="products.html"><img class="imgShortcode" src="<?php echo base_url('assets') ?>/img/Kong/products/Crimson_Splotch.jpg" alt><span></span><span></span></a>
                     <div class="emptySpace5"></div>
                     <p>Suspendisse potenti. Etiam non euismod augue. Nam aliquam sit amet tortor sit amet consectetur.</p>
                     <div class="emptySpace20"></div>
@@ -300,7 +300,7 @@
                 <div class="normall contentShortcode">
                     <a href="products.html"><h4 class="h4">Lilly Cookies</h4></a>
                     <div class="emptySpace-xs15 emptySpace-xs15 emptySpace25"></div>
-                    <a class="imgLayer" href="products.html"><img class="imgShortcode" src="<?php echo base_url('assets') ?>/img/sweet-img3.jpg" alt><span></span><span></span></a>
+                    <a class="imgLayer" href="products.html"><img class="imgShortcode" src="<?php echo base_url('assets') ?>/img/Kong/products/Goober.png" alt><span></span><span></span></a>
                     <div class="emptySpace5"></div>
                     <p>Suspendisse potenti. Etiam non euismod augue. Nam aliquam sit amet tortor sit amet consectetur.</p>
                     <div class="emptySpace20"></div>

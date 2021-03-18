@@ -14,6 +14,7 @@
 <script type="text/javascript" src="<?php echo base_url('assets'); ?>/Backend/plugins/notify-js/notify.js"></script>
 <script type="text/javascript" src="<?php echo base_url('assets'); ?>/Backend/plugins/confirm-js-alert/jquery-confirm.min.js"></script>
 <script type="text/javascript" src="<?php echo base_url('assets'); ?>/Backend/plugins/table/datatable/datatables.js"></script>
+<script type="text/javascript" src="<?php echo base_url('assets'); ?>/Backend/plugins/file-upload/file-upload-with-preview.min.js"></script>
 
 <script type="text/javascript" src="<?php echo base_url('assets'); ?>/Backend/plugins/select2/select2.min.js"></script>
 <!--<script type="text/javascript" src="--><?php //echo base_url('assets'); ?><!--/plugins/select2/custom-select2.js"></script>-->

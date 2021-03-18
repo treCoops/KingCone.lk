@@ -4,7 +4,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no">
 <title><?php echo $title ?></title>
-<link rel="icon" type="image/x-icon" href="<?php echo base_url('assets')?>/Backend/img/logo_marcopolo.png"/>
+<link rel="icon" type="image/x-icon" href="<?php echo base_url('assets')?>/img/favicon.png"/>
 <link href="<?php echo base_url('assets')?>/Backend/css/loader.css" rel="stylesheet" type="text/css" />
 <script src="<?php echo base_url('assets')?>/Backend/js/loader.js"></script>
 <!-- BEGIN GLOBAL MANDATORY STYLES -->
@@ -21,6 +21,7 @@
 <link rel="stylesheet" type="text/css" href="<?php echo base_url('assets')?>/Backend/plugins/table/datatable/datatables.css">
 <link rel="stylesheet" type="text/css" href="<?php echo base_url('assets')?>/Backend/css/forms/theme-checkbox-radio.css">
 <link rel="stylesheet" type="text/css" href="<?php echo base_url('assets')?>/Backend/plugins/table/datatable/dt-global_style.css">
+<link rel="stylesheet" type="text/css" href="<?php echo base_url('assets')?>/Backend/plugins/file-upload/file-upload-with-preview.min.css">
 <!-- END PAGE LEVEL PLUGINS/CUSTOM STYLES -->
 
 
