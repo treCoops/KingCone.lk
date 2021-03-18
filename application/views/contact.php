@@ -1,5 +1,5 @@
 <!-- Our-Contacts-Page -->
-<div class="bgImages opacityLayer" style="background-image: url(assets/img/contacts-bg.jpg); background-position: 50% 50%; background-size: cover">
+<div class="bgImages opacityLayer" style="background-image: url(assets/img/Kong/KONG1.jpg); background-position: 50% 50%; background-size: cover">
     <div class="container">
         <div class="cell-view tableCellVH2">
             <div class="emptySpace100 emptySpace-md50"></div>

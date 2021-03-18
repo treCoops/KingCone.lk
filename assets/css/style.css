@@ -1193,7 +1193,7 @@ nav li:last-child {
 
 nav a {
     position: relative;
-    font-size: 18px;
+    font-size: 15px;
     line-height: 27px;
     font-weight: 900;
     font-family: 'Philosopher';
@@ -2133,7 +2133,7 @@ header.scrolled {
     color: #fecb22;
 }
 
-/*Services*/
+/*Partners*/
 
 .servicesShortcode p {
     max-width: 260px;
@@ -3955,7 +3955,7 @@ _:-ms-input-placeholder, :root .icon {
     color: #a5a5a5;
 }
 
-/*Our-Blog*/
+/*Our-Milestones*/
 
 .commentBox {
     position: relative;
