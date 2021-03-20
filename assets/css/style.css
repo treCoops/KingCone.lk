@@ -2653,7 +2653,7 @@ header.scrolled {
 
 .historyMonth:after {
     position: absolute;
-    top: 55px;
+    /*top: 55px;*/
     right: 0;
     bottom: 0;
     left: 69px;

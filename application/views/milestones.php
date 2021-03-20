@@ -37,13 +37,8 @@
                 <div class="emptySpace55 emptySpace-xs30"></div>
             </div>
         </div>
+
         <div class="row">
-            <div class="yearShortcode2">
-                <div class="yearWrapper">
-                    <h4 class="h4 historyYear">2016</h4>
-                </div>
-            </div>
-            <!-- History-Block-1 -->
             <div class="timeLineShortcode2">
                 <div class="flexWrapper2">
                     <div class="imgTimeLineWrapper">
@@ -94,11 +89,6 @@
                     <h4 class="h4 historyMonth">08, February</h4>
                 </div>
             </div>
-            <div class="yearShortcode2">
-                <div class="yearWrapper">
-                    <h4 class="h4 historyYear">2015</h4>
-                </div>
-            </div>
             <!-- History-Block-4 -->
             <div class="timeLineShortcode2">
                 <div class="flexWrapper2">
@@ -133,11 +123,11 @@
                     <h4 class="h4 historyMonth">29, September</h4>
                 </div>
             </div>
-            <div class="yearShortcode2 loadedMore">
-                <div class="historySeeMore">
-                    <div class="historyPlus spin spin2"><span></span><span></span></div>
-                </div>
-            </div>
+<!--            <div class="yearShortcode2 loadedMore">-->
+<!--                <div class="historySeeMore">-->
+<!--                    <div class="historyPlus spin spin2"><span></span><span></span></div>-->
+<!--                </div>-->
+<!--            </div>-->
             <div class="emptySpace95 emptySpace-xs60"></div>
         </div>
     </div>
