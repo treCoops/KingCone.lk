@@ -9,7 +9,7 @@
                     <nav class="breadcrumb-one" aria-label="breadcrumb">
                         <ol class="breadcrumb">
                             <li class="breadcrumb-item"><a href="<?php echo base_url('BProduct') ?>">Product</a></li>
-                            <li class="breadcrumb-item active" aria-current="page"><span>Manage Seasonal Products</span></li>
+                            <li class="breadcrumb-item active" aria-current="page"><span>Manage Flavours</span></li>
                         </ol>
                     </nav>
 
@@ -26,40 +26,40 @@
                 <div class="widget-header">
                     <div class="row">
                         <div class="col-xl-12 col-md-12 col-sm-12 col-12">
-                            <h4>Add Seasonal Product Form</h4>
+                            <h4>Add Flavour Form</h4>
                         </div>
                     </div>
                 </div>
                 <div class="widget-content widget-content-area">
                     <form method="post" enctype="multipart/form-data" autocomplete="off" id="formAddSProduct">
                         <div class="form-group row mb-4">
-                            <label for="txtProductName" class="col-xl-2 col-sm-3 col-sm-2 col-form-label">Product Name</label>
+                            <label for="txtFlavourName" class="col-xl-2 col-sm-3 col-sm-2 col-form-label">Flavour Name</label>
                             <div class="col-xl-10 col-lg-9 col-sm-10">
-                                <input type="search" class="form-control" id="txtProductName" name="txtProductName">
+                                <input type="search" class="form-control" id="txtFlavourName" name="txtFlavourName">
                             </div>
                         </div>
 
                         <div class="form-group row mb-4">
-                            <label for="txtProductDescription" class="col-xl-2 col-sm-3 col-sm-2 col-form-label">Product Description</label>
+                            <label for="txtFlavourDescription" class="col-xl-2 col-sm-3 col-sm-2 col-form-label">Flavor Description</label>
                             <div class="col-xl-10 col-lg-9 col-sm-10">
-                                <input type="search" class="form-control" id="txtProductDescription" name="txtProductDescription">
+                                <input type="search" class="form-control" id="txtFlavourDescription" name="txtFlavourDescription">
                             </div>
                         </div>
 
                         <div class="form-group row mb-4">
-                            <label for="txtProductPrice" class="col-xl-2 col-sm-3 col-sm-2 col-form-label">Product Price</label>
+                            <label for="txtFlavourPrice" class="col-xl-2 col-sm-3 col-sm-2 col-form-label">Flavour Price</label>
                             <div class="col-xl-10 col-lg-9 col-sm-10">
-                                <input type="search" class="form-control" id="txtProductPrice" name="txtProductPrice">
+                                <input type="search" class="form-control" id="txtFlavourPrice" name="txtFlavourPrice">
                             </div>
                         </div>
 
                         <div class="form-group row mb-4">
-                            <label for="txtProductPrice" class="col-xl-2 col-sm-3 col-sm-2 col-form-label">Product Image (1920 x 1200)</label>
+                            <label for="txtFlavourImage" class="col-xl-2 col-sm-3 col-sm-2 col-form-label">Flavour Image (270 x 270)</label>
                             <div class="col-xl-10 col-lg-9 col-sm-10">
-                                <div class="custom-file-container" data-upload-id="productImage">
+                                <div class="custom-file-container" data-upload-id="flavourImage">
                                     <label><a href="javascript:void(0)" class="custom-file-container__image-clear" title="Clear Image">Clear Image</a></label>
                                     <label class="custom-file-container__custom-file" >
-                                        <input type="file" class="custom-file-container__custom-file__custom-file-input" name="txtProductImage" id="txtProductImage" accept="image/*">
+                                        <input type="file" class="custom-file-container__custom-file__custom-file-input" name="txtFlavourImage" id="txtFlavourImage" accept="image/*">
                                         <input type="hidden" name="MAX_FILE_SIZE" value="10485760" />
                                         <span class="custom-file-container__custom-file__custom-file-control"></span>
                                     </label>
@@ -67,22 +67,6 @@
                                 </div>
                             </div>
                         </div>
-
-                        <div class="form-group row mb-4">
-                            <label for="txtProductPrice" class="col-xl-2 col-sm-3 col-sm-2 col-form-label">Product Cover Image (1920 x 1200)</label>
-                            <div class="col-xl-10 col-lg-9 col-sm-10">
-                                <div class="custom-file-container" data-upload-id="productCoverImage">
-                                    <label><a href="javascript:void(0)" class="custom-file-container__image-clear" title="Clear Image">Clear Image</a></label>
-                                    <label class="custom-file-container__custom-file" >
-                                        <input type="file" class="custom-file-container__custom-file__custom-file-input" name="txtProductCoverImage" id="txtProductCoverImage" accept="image/*">
-                                        <input type="hidden" name="MAX_FILE_SIZE" value="10485760" />
-                                        <span class="custom-file-container__custom-file__custom-file-control"></span>
-                                    </label>
-                                    <div class="custom-file-container__image-preview"></div>
-                                </div>
-                            </div>
-                        </div>
-
                         <div class="form-group row">
                             <div class="col-sm-10">
                                 <button type="submit" class="btn btn-primary mt-3">Add</button>
@@ -93,7 +77,7 @@
                 <br/>
                 <div class="widget-content widget-content-area">
                     <div class="table-responsive mb-4 mt-4">
-                        <table id="tblSProducts" class="table table-hover" style="width:100%">
+                        <table id="tblFlavours" class="table table-hover" style="width:100%">
                         </table>
                     </div>
                 </div>
@@ -103,7 +87,7 @@
                     <div class="widget-header">
                         <div class="row">
                             <div class="col-xl-12 col-md-12 col-sm-12 col-12">
-                                <h4>Edit Seasonal Product Form</h4>
+                                <h4>Edit Flavour Form</h4>
                             </div>
                         </div>
                     </div>
@@ -111,24 +95,24 @@
                     <div class="widget-content widget-content-area">
                         <form method="post" autocomplete="off" id="formUpdateSProduct">
                             <div class="form-group row mb-4">
-                                <label for="txtUProductName" class="col-xl-2 col-sm-3 col-sm-2 col-form-label">Product Name</label>
+                                <label for="txtUFlavourName" class="col-xl-2 col-sm-3 col-sm-2 col-form-label">Flavour Name</label>
                                 <div class="col-xl-10 col-lg-9 col-sm-10">
-                                    <input type="search" class="form-control" id="txtUProductName" name="txtUProductName">
-                                    <input type="hidden" class="form-control" id="txtUProductID" name="txtUProductID">
+                                    <input type="search" class="form-control" id="txtUFlavourName" name="txtUFlavourName">
+                                    <input type="hidden" class="form-control" id="txtUFlavourID" name="txtUFlavourID">
                                 </div>
                             </div>
 
                             <div class="form-group row mb-4">
-                                <label for="txtUProductDescription" class="col-xl-2 col-sm-3 col-sm-2 col-form-label">Product Description</label>
+                                <label for="txtUFlavourDescription" class="col-xl-2 col-sm-3 col-sm-2 col-form-label">Flavour Description</label>
                                 <div class="col-xl-10 col-lg-9 col-sm-10">
-                                    <input type="search" class="form-control" id="txtUProductDescription" name="txtUProductDescription">
+                                    <input type="search" class="form-control" id="txtUFlavourDescription" name="txtUFlavourDescription">
                                 </div>
                             </div>
 
                             <div class="form-group row mb-4">
-                                <label for="txtUProductPrice" class="col-xl-2 col-sm-3 col-sm-2 col-form-label">Product Price</label>
+                                <label for="txtUFlavourPrice" class="col-xl-2 col-sm-3 col-sm-2 col-form-label">Flavour Price</label>
                                 <div class="col-xl-10 col-lg-9 col-sm-10">
-                                    <input type="search" class="form-control" id="txtUProductPrice" name="txtUProductPrice">
+                                    <input type="search" class="form-control" id="txtUFlavourPrice" name="txtUFlavourPrice">
                                 </div>
                             </div>
 
@@ -163,7 +147,7 @@
         $('#updateDiv').show()
 
         $.ajax({
-            url: "<?php echo base_url(''); ?>/BProduct/getSProductData",
+            url: "<?php echo base_url(''); ?>/BFlavour/getFlavourData",
             data: {ID : id},
             method: "post",
             dataType: "json",
@@ -174,12 +158,12 @@
             },
             success: function(r){
 
-                $('#txtUProductName').val(r.data[0].sp_name);
-                $('#txtUProductDescription').val(r.data[0].sp_description);
-                $('#txtUProductPrice').val(r.data[0].sp_price);;
-                $('#txtUProductID').val(r.data[0].sp_id);
+                $('#txtUFlavourName').val(r.data[0].flavour_name);
+                $('#txtUFlavourDescription').val(r.data[0].flavour_description);
+                $('#txtUFlavourPrice').val(r.data[0].flavour_price);;
+                $('#txtUFlavourID').val(r.data[0].flavour_id);
 
-                $('#cmbVisibility').val(r.data[0].sp_active_status);
+                $('#cmbVisibility').val(r.data[0].flavour_status);
                 $('#cmbVisibility').trigger('change');
             }
         });
@@ -188,8 +172,8 @@
     function del(id){
         $.confirm({
             icon: 'fa fa-trash',
-            title: 'Delete Seasonal Product',
-            content: 'Do you want to delete this product details?',
+            title: 'Delete Flavour',
+            content: 'Do you want to delete this flavour details?',
             type: 'red',
             typeAnimated: true,
             buttons: {
@@ -199,7 +183,7 @@
                     action: function(){
 
                         $.ajax({
-                            url: "<?php echo base_url(''); ?>/BProduct/deleteSProduct",
+                            url: "<?php echo base_url(''); ?>/BFlavour/deleteFlavour",
                             data: {ID : id},
                             method: "post",
                             dataType: "json",
@@ -246,10 +230,10 @@
 
     $(document).ready(function() {
 
-        dTable = $('#tblSProducts').DataTable({
+        dTable = $('#tblFlavours').DataTable({
             "processing": true,
             "initComplete": function (settings, json) {
-                $("#tblSProducts").show();
+                $("#tblFlavours").show();
             },
             "serverSide": true,
             "select": true,
@@ -257,29 +241,20 @@
             "bDestroy": true,
             "dataSrc": "tableData",
             "columns": [
-                {"data": "sp_id", "name": "SP ID", "title": "SP ID"},
-                {"data": "sp_name", "name": "SP Name", "title": "SP Name"},
-                {"data": "sp_description", "name": "SP Description", "title": "SP Description"},
-                {"data": "sp_price", "name": "SP Price", "title": "SP Price"},
-                {"data": "sp_image", "name": "SP Image", "title": "Sp Image",
+                {"data": "flavour_id", "name": "Flavour ID", "title": "Flavour ID"},
+                {"data": "flavour_name", "name": "Flavour Name", "title": "Flavour Name"},
+                {"data": "flavour_description", "name": "Flavour Description", "title": "Flavour Description"},
+                {"data": "flavour_price", "name": "Flavour Price", "title": "Flavour Price"},
+                {"data": "flavour_img", "name": "Flavour Image", "title": "Flavour Image",
                     mRender: function(data) {
                         return '<div class="d-flex">' +
                             '<div class="usr-img-frame mr-2 rounded-circle">'+
-                            '<img alt="avatar" class="img-fluid" src="<?php echo base_url(); ?>assets/img/Seasonal/' + data + '">'+
+                            '<img alt="avatar" class="img-fluid" src="<?php echo base_url(); ?>assets/img/Flavour/' + data + '">'+
                             '</div>'+
                             '</div>'
                     }
                 },
-                {"data": "sp_cover_image", "name": "SP Cover Image", "title": "SP Cover Image",
-                    mRender: function(data) {
-                        return '<div class="d-flex">' +
-                            '<div class="usr-img-frame mr-2 rounded-circle">'+
-                            '<img alt="avatar" class="img-fluid" src="<?php echo base_url(); ?>assets/img/Seasonal/' + data + '">'+
-                            '</div>'+
-                            '</div>'
-                    }
-                },
-                {"data": "sp_active_status", "name": "SP Active Status", "title": "SP Active Status",
+                {"data": "flavour_status", "name": "Flavour Active Status", "title": "Flavour Active Status",
                     mRender: function(data) {
                         if(data === '1'){
                             return '<span class=" shadow-none badge outline-badge-primary">Activated</span>'
@@ -289,7 +264,7 @@
                         }
                     }
                 },
-                {"data": "sp_id", "name": "Action", "title": "Action",
+                {"data": "flavour_id", "name": "Action", "title": "Action",
                     mRender: function (id) {
                         return '<ul class="row mb-4">\n' +
                             '<li class="col-md-6 list-inline-item" data-toggle="tooltip" data-placement="top" title="Edit"><button onclick="edit(\''+id+'\')" class="btn btn-outline-info" ><svg xmlns="http://www.w3.org/2000/svg" width="5" height="5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-edit-2 p-1 br-6 mb-1"><path d="M17 3a2.828 2.828 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5L17 3z"></path></svg></button></li>\n' +
@@ -302,7 +277,7 @@
                 "emptyTable": "No subjects to show..."
             },
             "ajax": {
-                "url": '<?php echo base_url(''); ?>/BProduct/getSProductsForTable',
+                "url": '<?php echo base_url(''); ?>/BFlavour/getFlavoursForTable',
                 "dataType": "json",
             },
             "oLanguage": {
@@ -329,33 +304,32 @@
 
         $('#updateDiv').hide()
 
-        new FileUploadWithPreview('productImage')
-        new FileUploadWithPreview('productCoverImage')
+        new FileUploadWithPreview('flavourImage')
 
         $("#formAddSProduct").validate({
             ignore: [],
             rules: {
-                txtProductName: {
+                txtFlavourName: {
                     required: true
                 },
                 txtProductDescription: {
                     required: true
                 },
-                txtProductPrice: {
+                txtFlavourPrice: {
                     required: true,
                     digits: true
                 }
             },
             messages: {
-                txtProductName: {
-                    required: 'Product Name required!'
+                txtFlavourName: {
+                    required: 'Flavour Name required!'
                 },
                 txtProductDescription: {
-                    required: 'Product Description required!'
+                    required: 'Flavour Description required!'
                 },
-                txtProductPrice: {
-                    required: 'Product Price required!',
-                    digits: 'Product price must be a digit value'
+                txtFlavourPrice: {
+                    required: 'Flavour Price required!',
+                    digits: 'Flavour price must be a digit value'
                 }
             },
             submitHandler: function (form) {
@@ -363,7 +337,7 @@
                 let formData = new FormData(form);
 
                 $.ajax({
-                    url: '<?php echo base_url('BProduct/addSeasonalProduct'); ?>',
+                    url: '<?php echo base_url('BFlavour/addFlavour'); ?>',
                     data: formData,
                     dataType: 'json',
                     method: 'post',
@@ -397,33 +371,33 @@
         $("#formUpdateSProduct").validate({
             ignore: [],
             rules: {
-                txtUProductName: {
+                txtUFlavourName: {
                     required: true
                 },
-                txtUProductDescription: {
+                txtUFlavourDescription: {
                     required: true
                 },
-                txtUProductPrice: {
+                txtUFlavourPrice: {
                     required: true,
                     digits: true
                 }
             },
             messages: {
-                txtUProductName: {
-                    required: 'Product Name required!'
+                txtUFlavourName: {
+                    required: 'Flavour Name required!'
                 },
-                txtUProductDescription: {
-                    required: 'Product Description required!'
+                txtUFlavourDescription: {
+                    required: 'Flavour Description required!'
                 },
-                txtUProductPrice: {
-                    required: 'Product Price required!',
-                    digits: 'Product price must be a digit value'
+                txtUFlavourPrice: {
+                    required: 'Flavour Price required!',
+                    digits: 'Flavour price must be a digit value'
                 }
             },
             submitHandler: function (form) {
 
                 $.ajax({
-                    url: '<?php echo base_url('BProduct/updatesProduct'); ?>',
+                    url: '<?php echo base_url('BFlavour/updateFlavour'); ?>',
                     data: $('#formUpdateSProduct').serializeArray(),
                     dataType: 'json',
                     method: 'post',

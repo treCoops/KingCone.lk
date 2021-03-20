@@ -19,7 +19,7 @@
         </div>
     </div>
 </div>
-<div class="bgWhite">
+<div class="bgBlack">
     <div class="container">
         <div class="emptySpace-xs60 emptySpace120"></div>
         <div class="row">
@@ -34,21 +34,21 @@
                 </div>
             </div>
         </div>
-        <div class="emptySpace75 emptySpace-xs30"></div>
-        <div class="row">
+<!--        <div class="emptySpace75 emptySpace-xs30"></div>-->
+<!--        <div class="row">-->
             <!-- Filter-Buttons -->
-            <div class="col-sm-8 col-sm-offset-2">
-                <div class="big filterShortcode button-group filters-button-group">
-                    <div class="filterBtn is-checked" data-filter="*">All</div>
-                    <div class="filterBtn" data-filter=".Muffins">Muffins</div>
-                    <div class="filterBtn" data-filter=".Cheesecakes">Cheesecakes</div>
-                    <div class="filterBtn" data-filter=".Cookies">Cookies</div>
-                    <div class="filterBtn" data-filter=".Cakes">Cakes</div>
-                    <div class="filterBtn" data-filter=".Desserts">Desserts</div>
-                </div>
-            </div>
-        </div>
-        <div class="emptySpace70 emptySpace-xs30"></div>
+<!--            <div class="col-sm-8 col-sm-offset-2">-->
+<!--                <div class="big filterShortcode button-group filters-button-group">-->
+<!--                    <div class="filterBtn is-checked" data-filter="*">All</div>-->
+<!--                    <div class="filterBtn" data-filter=".Muffins">Muffins</div>-->
+<!--                    <div class="filterBtn" data-filter=".Cheesecakes">Cheesecakes</div>-->
+<!--                    <div class="filterBtn" data-filter=".Cookies">Cookies</div>-->
+<!--                    <div class="filterBtn" data-filter=".Cakes">Cakes</div>-->
+<!--                    <div class="filterBtn" data-filter=".Desserts">Desserts</div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+        <div class="emptySpace70 emptySpace-xs30 backgroundBlack"></div>
         <div class="grid">
             <div class="row">
                 <!-- Sweets-1 -->
@@ -215,7 +215,6 @@
         </div>
     </div>
 </div>
-<div class="emptySpace130 emptySpace-xs40"></div>
-
+<div class="emptySpace130 emptySpace-xs40 backgroundBlack"></div>
 <div class="footerSeparator"></div>
-<div class="emptySpace50 emptySpace-xs30"></div>
+<div class="emptySpace50 emptySpace-xs30 backgroundBlack"></div>

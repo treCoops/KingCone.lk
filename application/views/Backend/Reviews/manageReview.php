@@ -8,8 +8,8 @@
 
                     <nav class="breadcrumb-one" aria-label="breadcrumb">
                         <ol class="breadcrumb">
-                            <li class="breadcrumb-item"><a href="<?php echo base_url('BProduct') ?>">Product</a></li>
-                            <li class="breadcrumb-item active" aria-current="page"><span>Manage Seasonal Products</span></li>
+                            <li class="breadcrumb-item"><a href="<?php echo base_url('BReview') ?>">Review</a></li>
+                            <li class="breadcrumb-item active" aria-current="page"><span>Manage Reviews</span></li>
                         </ol>
                     </nav>
 
@@ -26,40 +26,47 @@
                 <div class="widget-header">
                     <div class="row">
                         <div class="col-xl-12 col-md-12 col-sm-12 col-12">
-                            <h4>Add Seasonal Product Form</h4>
+                            <h4>Add Review Form</h4>
                         </div>
                     </div>
                 </div>
                 <div class="widget-content widget-content-area">
                     <form method="post" enctype="multipart/form-data" autocomplete="off" id="formAddSProduct">
                         <div class="form-group row mb-4">
-                            <label for="txtProductName" class="col-xl-2 col-sm-3 col-sm-2 col-form-label">Product Name</label>
+                            <label for="txtReviewTopic" class="col-xl-2 col-sm-3 col-sm-2 col-form-label">Review Topic</label>
                             <div class="col-xl-10 col-lg-9 col-sm-10">
-                                <input type="search" class="form-control" id="txtProductName" name="txtProductName">
+                                <input type="search" class="form-control" id="txtReviewTopic" name="txtReviewTopic">
                             </div>
                         </div>
 
                         <div class="form-group row mb-4">
-                            <label for="txtProductDescription" class="col-xl-2 col-sm-3 col-sm-2 col-form-label">Product Description</label>
+                            <label for="txtReviewDescription" class="col-xl-2 col-sm-3 col-sm-2 col-form-label">Review Description</label>
                             <div class="col-xl-10 col-lg-9 col-sm-10">
-                                <input type="search" class="form-control" id="txtProductDescription" name="txtProductDescription">
+                                <input type="search" class="form-control" id="txtReviewDescription" name="txtReviewDescription">
                             </div>
                         </div>
 
                         <div class="form-group row mb-4">
-                            <label for="txtProductPrice" class="col-xl-2 col-sm-3 col-sm-2 col-form-label">Product Price</label>
+                            <label for="txtReviewerName" class="col-xl-2 col-sm-3 col-sm-2 col-form-label">Reviewer Name</label>
                             <div class="col-xl-10 col-lg-9 col-sm-10">
-                                <input type="search" class="form-control" id="txtProductPrice" name="txtProductPrice">
+                                <input type="search" class="form-control" id="txtReviewerName" name="txtReviewerName">
                             </div>
                         </div>
 
                         <div class="form-group row mb-4">
-                            <label for="txtProductPrice" class="col-xl-2 col-sm-3 col-sm-2 col-form-label">Product Image (1920 x 1200)</label>
+                            <label for="txtReviewerDesignation" class="col-xl-2 col-sm-3 col-sm-2 col-form-label">Reviewer Designation</label>
                             <div class="col-xl-10 col-lg-9 col-sm-10">
-                                <div class="custom-file-container" data-upload-id="productImage">
+                                <input type="search" class="form-control" id="txtReviewerDesignation" name="txtReviewerDesignation">
+                            </div>
+                        </div>
+
+                        <div class="form-group row mb-4">
+                            <label for="txtReviewerImage" class="col-xl-2 col-sm-3 col-sm-2 col-form-label">Reviewer Image (Square)</label>
+                            <div class="col-xl-10 col-lg-9 col-sm-10">
+                                <div class="custom-file-container" data-upload-id="reviewerImage">
                                     <label><a href="javascript:void(0)" class="custom-file-container__image-clear" title="Clear Image">Clear Image</a></label>
                                     <label class="custom-file-container__custom-file" >
-                                        <input type="file" class="custom-file-container__custom-file__custom-file-input" name="txtProductImage" id="txtProductImage" accept="image/*">
+                                        <input type="file" class="custom-file-container__custom-file__custom-file-input" name="txtReviewerImage" id="txtReviewerImage" accept="image/*">
                                         <input type="hidden" name="MAX_FILE_SIZE" value="10485760" />
                                         <span class="custom-file-container__custom-file__custom-file-control"></span>
                                     </label>
@@ -67,22 +74,6 @@
                                 </div>
                             </div>
                         </div>
-
-                        <div class="form-group row mb-4">
-                            <label for="txtProductPrice" class="col-xl-2 col-sm-3 col-sm-2 col-form-label">Product Cover Image (1920 x 1200)</label>
-                            <div class="col-xl-10 col-lg-9 col-sm-10">
-                                <div class="custom-file-container" data-upload-id="productCoverImage">
-                                    <label><a href="javascript:void(0)" class="custom-file-container__image-clear" title="Clear Image">Clear Image</a></label>
-                                    <label class="custom-file-container__custom-file" >
-                                        <input type="file" class="custom-file-container__custom-file__custom-file-input" name="txtProductCoverImage" id="txtProductCoverImage" accept="image/*">
-                                        <input type="hidden" name="MAX_FILE_SIZE" value="10485760" />
-                                        <span class="custom-file-container__custom-file__custom-file-control"></span>
-                                    </label>
-                                    <div class="custom-file-container__image-preview"></div>
-                                </div>
-                            </div>
-                        </div>
-
                         <div class="form-group row">
                             <div class="col-sm-10">
                                 <button type="submit" class="btn btn-primary mt-3">Add</button>
@@ -93,7 +84,7 @@
                 <br/>
                 <div class="widget-content widget-content-area">
                     <div class="table-responsive mb-4 mt-4">
-                        <table id="tblSProducts" class="table table-hover" style="width:100%">
+                        <table id="tblReviews" class="table table-hover" style="width:100%">
                         </table>
                     </div>
                 </div>
@@ -103,7 +94,7 @@
                     <div class="widget-header">
                         <div class="row">
                             <div class="col-xl-12 col-md-12 col-sm-12 col-12">
-                                <h4>Edit Seasonal Product Form</h4>
+                                <h4>Edit Flavour Form</h4>
                             </div>
                         </div>
                     </div>
@@ -111,29 +102,36 @@
                     <div class="widget-content widget-content-area">
                         <form method="post" autocomplete="off" id="formUpdateSProduct">
                             <div class="form-group row mb-4">
-                                <label for="txtUProductName" class="col-xl-2 col-sm-3 col-sm-2 col-form-label">Product Name</label>
+                                <label for="txtUReviewTopic" class="col-xl-2 col-sm-3 col-sm-2 col-form-label">Review Topic</label>
                                 <div class="col-xl-10 col-lg-9 col-sm-10">
-                                    <input type="search" class="form-control" id="txtUProductName" name="txtUProductName">
-                                    <input type="hidden" class="form-control" id="txtUProductID" name="txtUProductID">
+                                    <input type="search" class="form-control" id="txtUReviewTopic" name="txtUReviewTopic">
+                                    <input type="hidden" class="form-control" id="txtUReviewID" name="txtUReviewID">
                                 </div>
                             </div>
 
                             <div class="form-group row mb-4">
-                                <label for="txtUProductDescription" class="col-xl-2 col-sm-3 col-sm-2 col-form-label">Product Description</label>
+                                <label for="txtUReviewDescription" class="col-xl-2 col-sm-3 col-sm-2 col-form-label">Review Description</label>
                                 <div class="col-xl-10 col-lg-9 col-sm-10">
-                                    <input type="search" class="form-control" id="txtUProductDescription" name="txtUProductDescription">
+                                    <input type="search" class="form-control" id="txtUReviewDescription" name="txtUReviewDescription">
                                 </div>
                             </div>
 
                             <div class="form-group row mb-4">
-                                <label for="txtUProductPrice" class="col-xl-2 col-sm-3 col-sm-2 col-form-label">Product Price</label>
+                                <label for="txtUReviewerName" class="col-xl-2 col-sm-3 col-sm-2 col-form-label">Reviewer Name</label>
                                 <div class="col-xl-10 col-lg-9 col-sm-10">
-                                    <input type="search" class="form-control" id="txtUProductPrice" name="txtUProductPrice">
+                                    <input type="search" class="form-control" id="txtUReviewerName" name="txtUReviewerName">
                                 </div>
                             </div>
 
                             <div class="form-group row mb-4">
-                                <label for="cmbVisibility" class="col-xl-2 col-sm-3 col-sm-2 col-form-label">Product Visibility</label>
+                                <label for="txtUReviewerDesignation" class="col-xl-2 col-sm-3 col-sm-2 col-form-label">Reviewer Designation</label>
+                                <div class="col-xl-10 col-lg-9 col-sm-10">
+                                    <input type="search" class="form-control" id="txtUReviewerDesignation" name="txtUReviewerDesignation">
+                                </div>
+                            </div>
+
+                            <div class="form-group row mb-4">
+                                <label for="cmbVisibility" class="col-xl-2 col-sm-3 col-sm-2 col-form-label">Review Visibility</label>
                                 <div class="col-xl-10 col-lg-9 col-sm-10">
                                     <select class="form-control" id="cmbVisibility" name="cmbVisibility">
                                         <option value="1">Activate</option>
@@ -163,7 +161,7 @@
         $('#updateDiv').show()
 
         $.ajax({
-            url: "<?php echo base_url(''); ?>/BProduct/getSProductData",
+            url: "<?php echo base_url(''); ?>/BReview/getReviewData",
             data: {ID : id},
             method: "post",
             dataType: "json",
@@ -174,12 +172,13 @@
             },
             success: function(r){
 
-                $('#txtUProductName').val(r.data[0].sp_name);
-                $('#txtUProductDescription').val(r.data[0].sp_description);
-                $('#txtUProductPrice').val(r.data[0].sp_price);;
-                $('#txtUProductID').val(r.data[0].sp_id);
+                $('#txtUReviewTopic').val(r.data[0].review_topic);
+                $('#txtUReviewDescription').val(r.data[0].review_description);
+                $('#txtUReviewerName').val(r.data[0].reviewer_name);;
+                $('#txtUReviewID').val(r.data[0].review_id);
+                $('#txtUReviewerDesignation').val(r.data[0].reviewer_designation);
 
-                $('#cmbVisibility').val(r.data[0].sp_active_status);
+                $('#cmbVisibility').val(r.data[0].review_status);
                 $('#cmbVisibility').trigger('change');
             }
         });
@@ -188,8 +187,8 @@
     function del(id){
         $.confirm({
             icon: 'fa fa-trash',
-            title: 'Delete Seasonal Product',
-            content: 'Do you want to delete this product details?',
+            title: 'Delete Review',
+            content: 'Do you want to delete this review details?',
             type: 'red',
             typeAnimated: true,
             buttons: {
@@ -199,7 +198,7 @@
                     action: function(){
 
                         $.ajax({
-                            url: "<?php echo base_url(''); ?>/BProduct/deleteSProduct",
+                            url: "<?php echo base_url(''); ?>/BReview/deleteReview",
                             data: {ID : id},
                             method: "post",
                             dataType: "json",
@@ -246,10 +245,10 @@
 
     $(document).ready(function() {
 
-        dTable = $('#tblSProducts').DataTable({
+        dTable = $('#tblReviews').DataTable({
             "processing": true,
             "initComplete": function (settings, json) {
-                $("#tblSProducts").show();
+                $("#tblReviews").show();
             },
             "serverSide": true,
             "select": true,
@@ -257,29 +256,21 @@
             "bDestroy": true,
             "dataSrc": "tableData",
             "columns": [
-                {"data": "sp_id", "name": "SP ID", "title": "SP ID"},
-                {"data": "sp_name", "name": "SP Name", "title": "SP Name"},
-                {"data": "sp_description", "name": "SP Description", "title": "SP Description"},
-                {"data": "sp_price", "name": "SP Price", "title": "SP Price"},
-                {"data": "sp_image", "name": "SP Image", "title": "Sp Image",
+                {"data": "review_id", "name": "Review ID", "title": "Review ID"},
+                {"data": "review_topic", "name": "Review Topic", "title": "Review Topic"},
+                {"data": "review_description", "name": "Review Description", "title": "Review Description"},
+                {"data": "reviewer_name", "name": "Reviewer Name", "title": "Reviewer Name"},
+                {"data": "reviewer_designation", "name": "Reviewer Designation", "title": "Reviewer Designation"},
+                {"data": "reviewer_image", "name": "Flavour Image", "title": "Reviewer Image",
                     mRender: function(data) {
                         return '<div class="d-flex">' +
                             '<div class="usr-img-frame mr-2 rounded-circle">'+
-                            '<img alt="avatar" class="img-fluid" src="<?php echo base_url(); ?>assets/img/Seasonal/' + data + '">'+
+                            '<img alt="avatar" class="img-fluid" src="<?php echo base_url(); ?>assets/img/Reviewer/' + data + '">'+
                             '</div>'+
                             '</div>'
                     }
                 },
-                {"data": "sp_cover_image", "name": "SP Cover Image", "title": "SP Cover Image",
-                    mRender: function(data) {
-                        return '<div class="d-flex">' +
-                            '<div class="usr-img-frame mr-2 rounded-circle">'+
-                            '<img alt="avatar" class="img-fluid" src="<?php echo base_url(); ?>assets/img/Seasonal/' + data + '">'+
-                            '</div>'+
-                            '</div>'
-                    }
-                },
-                {"data": "sp_active_status", "name": "SP Active Status", "title": "SP Active Status",
+                {"data": "review_status", "name": "Review Active Status", "title": "Review Active Status",
                     mRender: function(data) {
                         if(data === '1'){
                             return '<span class=" shadow-none badge outline-badge-primary">Activated</span>'
@@ -289,12 +280,12 @@
                         }
                     }
                 },
-                {"data": "sp_id", "name": "Action", "title": "Action",
+                {"data": "review_id", "name": "Action", "title": "Action",
                     mRender: function (id) {
-                        return '<ul class="row mb-4">\n' +
-                            '<li class="col-md-6 list-inline-item" data-toggle="tooltip" data-placement="top" title="Edit"><button onclick="edit(\''+id+'\')" class="btn btn-outline-info" ><svg xmlns="http://www.w3.org/2000/svg" width="5" height="5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-edit-2 p-1 br-6 mb-1"><path d="M17 3a2.828 2.828 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5L17 3z"></path></svg></button></li>\n' +
+                        return '<td class="text-center"><ul class="table-controls">\n' +
+                            '<li class="list-inline-item" data-toggle="tooltip" data-placement="top" title="Edit"><button onclick="edit(\''+id+'\')" class="btn btn-outline-info" ><svg xmlns="http://www.w3.org/2000/svg" width="5" height="5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-edit-2 p-1 br-6 mb-1"><path d="M17 3a2.828 2.828 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5L17 3z"></path></svg></button></li>\n' +
                             '<li class="list-inline-item" data-toggle="tooltip" data-placement="top" title="Delete"><button onclick="del(\''+id+'\')" class="btn btn-outline-danger"><svg xmlns="http://www.w3.org/2000/svg" width="5" height="5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-trash p-1 br-6 mb-1"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg></button></li>\n' +
-                            '</ul>'
+                            '</ul></td>'
                     }
                 }
             ],
@@ -302,7 +293,7 @@
                 "emptyTable": "No subjects to show..."
             },
             "ajax": {
-                "url": '<?php echo base_url(''); ?>/BProduct/getSProductsForTable',
+                "url": '<?php echo base_url(''); ?>/BReview/getReviewsForTable',
                 "dataType": "json",
             },
             "oLanguage": {
@@ -326,36 +317,38 @@
             } ]
         });
 
-
         $('#updateDiv').hide()
 
-        new FileUploadWithPreview('productImage')
-        new FileUploadWithPreview('productCoverImage')
+        new FileUploadWithPreview('reviewerImage')
 
         $("#formAddSProduct").validate({
             ignore: [],
             rules: {
-                txtProductName: {
+                txtReviewTopic: {
                     required: true
                 },
-                txtProductDescription: {
+                txtReviewDescription: {
                     required: true
                 },
-                txtProductPrice: {
-                    required: true,
-                    digits: true
+                txtReviewerName: {
+                    required: true
+                },
+                txtReviewerDesignation: {
+                    required: true
                 }
             },
             messages: {
-                txtProductName: {
-                    required: 'Product Name required!'
+                txtReviewTopic: {
+                    required: 'Review topic required!'
                 },
-                txtProductDescription: {
-                    required: 'Product Description required!'
+                txtReviewDescription: {
+                    required: 'Review description required!'
                 },
-                txtProductPrice: {
-                    required: 'Product Price required!',
-                    digits: 'Product price must be a digit value'
+                txtReviewerName: {
+                    required: 'Reviewer name required!'
+                },
+                txtReviewerDesignation: {
+                    required: 'Reviewer designation required!'
                 }
             },
             submitHandler: function (form) {
@@ -363,7 +356,7 @@
                 let formData = new FormData(form);
 
                 $.ajax({
-                    url: '<?php echo base_url('BProduct/addSeasonalProduct'); ?>',
+                    url: '<?php echo base_url('BReview/addReview'); ?>',
                     data: formData,
                     dataType: 'json',
                     method: 'post',
@@ -397,33 +390,37 @@
         $("#formUpdateSProduct").validate({
             ignore: [],
             rules: {
-                txtUProductName: {
+                txtUReviewTopic: {
                     required: true
                 },
-                txtUProductDescription: {
+                txtUReviewDescription: {
                     required: true
                 },
-                txtUProductPrice: {
-                    required: true,
-                    digits: true
+                txtUReviewerName: {
+                    required: true
+                },
+                txtUReviewerDesignation: {
+                    required: true
                 }
             },
             messages: {
-                txtUProductName: {
-                    required: 'Product Name required!'
+                txtUReviewTopic: {
+                    required: 'Review topic required!'
                 },
-                txtUProductDescription: {
-                    required: 'Product Description required!'
+                txtUReviewDescription: {
+                    required: 'Review description required!'
                 },
-                txtUProductPrice: {
-                    required: 'Product Price required!',
-                    digits: 'Product price must be a digit value'
+                txtUReviewerName: {
+                    required: 'Reviewer name required!'
+                },
+                txtUReviewerDesignation: {
+                    required: 'Reviewer designation required!'
                 }
             },
             submitHandler: function (form) {
 
                 $.ajax({
-                    url: '<?php echo base_url('BProduct/updatesProduct'); ?>',
+                    url: '<?php echo base_url('BReview/updateReview'); ?>',
                     data: $('#formUpdateSProduct').serializeArray(),
                     dataType: 'json',
                     method: 'post',
@@ -440,6 +437,7 @@
                         if(r.status == 200){
                             $('#updateDiv').hide()
                             $.notify(r.message, "success");
+                            $('#txtServiceName').val("")
                         }
 
                         if(r.status == 500){

@@ -383,55 +383,82 @@
 <div class="bgBlack">
     <div class="container">
         <div class="row">
-            <!-- Services-Title -->
+            <!-- Goodies-Title -->
             <div class="col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
                 <div class="big titleShortcode">
-                    <h5 class="h5">Get a Look At</h5>
-                    <div class="emptySpace20"></div>
-                    <h2 class="h2 bottomLine">Our Services</h2>
+                    <h5 class="h3" style="color: goldenrod">Our</h5>
+                    <div class="emptySpace15"></div>
+                    <h2 class="h2 bottomLine">Partners.</h2>
                     <div class="emptySpace30"></div>
-                    <p>Proin mattis rutrum magna, et pretium erat tincidunt at. Donec lectus ipsum, pulvinar id sollicitudin id, bibendum vel quam. </p>
-                    <div class="emptySpace80 emptySpace-xs30"></div>
+                    <!--<p>Proin mattis rutrum magna, et pretium erat tincidunt at. Donec lectus ipsum, pulvinar id sollicitudin id, bibendum vel quam. </p>-->
+                    <!--<div class="emptySpace75 emptySpace-xs30"></div>-->
                 </div>
             </div>
         </div>
         <div class="row">
-            <!-- Services-1 -->
-            <div class="col-sm-4">
-                <div class="normall servicesShortcode">
-                    <a class="services serviceIcon spin spin2" href="services.html"> <img src="<?php echo base_url('assets') ?>/img/service-icon.png" alt></a>
-                    <div class="emptySpace20"></div>
-                    <a href="services.html"><h4 class="h4">Birthday Cakes Baking</h4></a>
-                    <div class="emptySpace15"></div>
-                    <p>Suspendisse potenti. Etiam non euismod augue. Nam aliquam sit amet tortor sit amet consectetur.</p>
+            <!-- Swiper -->
+            <div class="swiper-container" data-breakpoints="1" data-xs-slides="1" data-sm-slides="2" data-md-slides="3" data-slides-per-view="4" data-space="23">
+                <div class="swiper-wrapper">
+                    <!-- Slide-1 -->
+                    <div class="swiper-slide">
+                        <div class="normall goodiesShortcode">
+                            <a href="products-detail.html"><h4 class="h4">Direct Delivery</h4></a>
+                            <div class="emptySpace25"></div>
+                            <a class="" style="position: relative; display: inline-block; overflow: hidden" href="products-detail.html"><img class="imgShortcode" src="<?php echo base_url('assets') ?>/img/Kong/delivery.png" alt> <span></span><span></span></a>
+                            <div class="emptySpace5"></div>
+                            <p>Suspendisse potenti. Etiam non euismod augue. Nam aliquam sit amet tortor sit amet consectetur.</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="normall goodiesShortcode">
+                            <a href="products-detail.html"><h3 class="h4">Uber Eats</h3></a>
+                            <div class="emptySpace25"></div>
+                            <a class="" style="position: relative; display: inline-block; overflow: hidden;" href="products-detail.html"><img class="imgShortcode" src="<?php echo base_url('assets') ?>/img/Kong/uber.png" alt><span></span><span></span></a>
+                            <div class="emptySpace5"></div>
+                            <p>Suspendisse potenti. Etiam non euismod augue. Nam aliquam sit amet tortor sit amet consectetur.</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="normall goodiesShortcode">
+                            <a href="products-detail.html"><h4 class="h4 ">Pick Up</h4></a>
+                            <div class="emptySpace25"></div>
+                            <a class="" style="position: relative; display: inline-block; overflow: hidden" href="products-detail.html"><img class="imgShortcode" src="<?php echo base_url('assets') ?>/img/Kong/takeAway.png" alt><span></span><span></span></a>
+                            <div class="emptySpace5"></div>
+                            <p>Suspendisse potenti. Etiam non euismod augue. Nam aliquam sit amet tortor sit amet consectetur.</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="normall goodiesShortcode">
+                            <a href="products-detail.html"><h4 class="h4">Eat In</h4></a>
+                            <div class="emptySpace25"></div>
+                            <a class="" style="position: relative; display: inline-block; overflow: hidden" href="products-detail.html"><img class="imgShortcode" src="<?php echo base_url('assets') ?>/img/Kong/dineIn.png" alt><span></span><span></span></a>
+                            <div class="emptySpace5"></div>
+                            <p>Suspendisse potenti. Etiam non euismod augue. Nam aliquam sit amet tortor sit amet consectetur.</p>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="normall goodiesShortcode">
+                            <a href="products-detail.html"><h4 class="h4">Eat In</h4></a>
+                            <div class="emptySpace25"></div>
+                            <a class="" style="position: relative; display: inline-block; overflow: hidden" href="products-detail.html"><img class="imgShortcode" src="<?php echo base_url('assets') ?>/img/Kong/dineIn.png" alt><span></span><span></span></a>
+                            <div class="emptySpace5"></div>
+                            <p>Suspendisse potenti. Etiam non euismod augue. Nam aliquam sit amet tortor sit amet consectetur.</p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <!-- Services-2 -->
-            <div class="col-sm-4">
-                <div class="emptySpace-xs30"></div>
-                <div class="normall servicesShortcode">
-                    <a class="services2 spin spin2" href="services.html"><img src="<?php echo base_url('assets') ?>/img/service-icon2.png" alt></a>
-                    <div class="emptySpace20"></div>
-                    <a href="services.html"><h4 class="h4">Delivery To Any Point</h4></a>
-                    <div class="emptySpace15"></div>
-                    <p>Suspendisse potenti. Etiam non euismod augue. Nam aliquam sit amet tortor sit amet consectetur.</p>
+                <div class="arrowWrapper">
+                    <div class="swiper-button-prev hidden-xs hidden-sm spin spin2">
+                        <img class="arrowShortcode" src="<?php echo base_url('assets') ?>/img/left-hover-arrow.png" alt>
+                    </div>
+                    <div class="swiper-button-next hidden-xs hidden-sm spin spin2">
+                        <img class="arrowShortcode" src="<?php echo base_url('assets') ?>/img/right-hover-arrow.png" alt>
+                    </div>
                 </div>
-            </div>
-            <!-- Services-3 -->
-            <div class="col-sm-4">
-                <div class="emptySpace-xs30"></div>
-                <div class="normall servicesShortcode">
-                    <a class="services2 spin spin2" href="services.html"><img src="<?php echo base_url('assets') ?>/img/service-icon3.png" alt></a>
-                    <div class="emptySpace20"></div>
-                    <a href="services.html"><h4 class="h4">Individual Approach</h4></a>
-                    <div class="emptySpace15"></div>
-                    <p>Suspendisse potenti. Etiam non euismod augue. Nam aliquam sit amet tortor sit amet consectetur.</p>
-                </div>
+                <div class="swiper-pagination relative-pagination swiper-pagination-black visible-xs visible-sm"></div>
             </div>
         </div>
-        <div class="emptySpace55 emptySpace-xs30"></div>
-        <!-- Button -->
-        <div class="btnAlign"><a href="services.html" class="button">View All Services</a></div>
+        <div class="emptySpace55 emptySpace-sm20"></div>
     </div>
 </div>
 <div class="emptySpace-xs60 emptySpace130 backgroundBlack"></div>
@@ -463,7 +490,7 @@
                     <div class="row">
                         <div class="col-sm-4">
                             <div class="cell-view cvHeight">
-                                <img class="aboutUsImg" src="<?php echo base_url('assets') ?>/img/client-image.png" alt>
+                                <img class="aboutUsImg" src="<?php echo base_url('assets') ?>/img/Kong/products/Goober.png" alt>
                             </div>
                         </div>
                         <div class="col-sm-8">

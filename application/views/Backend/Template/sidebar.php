@@ -42,7 +42,7 @@ if ($User_Session == null) {
             </li>
 
             <li class="menu">
-                <a href="#users" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+                <a href="#users1" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
                     <div class="">
                         <span>Flavours</span>
                     </div>
@@ -50,7 +50,7 @@ if ($User_Session == null) {
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right"><polyline points="9 18 15 12 9 6"></polyline></svg>
                     </div>
                 </a>
-                <ul class="collapse submenu list-unstyled" id="users" data-parent="#accordionExample">
+                <ul class="collapse submenu list-unstyled" id="users1" data-parent="#accordionExample">
                     <li>
                         <a href="<?php echo base_url('BFlavour') ?>"> Manage </a>
                     </li>
@@ -68,13 +68,13 @@ if ($User_Session == null) {
                 </a>
                 <ul class="collapse submenu list-unstyled" id="app" data-parent="#accordionExample">
                     <li>
-                        <a href="<?php echo base_url('BReviews') ?>"> Manage </a>
+                        <a href="<?php echo base_url('BReview') ?>"> Manage </a>
                     </li>
                 </ul>
             </li>
 
             <li class="menu">
-                <a href="#clients" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+                <a href="#clientas" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
                     <div class="">
                        <span>Milestones</span>
                     </div>
@@ -82,7 +82,7 @@ if ($User_Session == null) {
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right"><polyline points="9 18 15 12 9 6"></polyline></svg>
                     </div>
                 </a>
-                <ul class="collapse submenu list-unstyled" id="clients" data-parent="#accordionExample">
+                <ul class="collapse submenu list-unstyled" id="clientas" data-parent="#accordionExample">
                     <li>
                         <a href="<?php echo base_url('BMilestone') ?>"> Manage </a>
                     </li>
@@ -100,7 +100,7 @@ if ($User_Session == null) {
                 </a>
                 <ul class="collapse submenu list-unstyled" id="clients" data-parent="#accordionExample">
                     <li>
-                        <a href="<?php echo base_url('BPartners') ?>"> Manage </a>
+                        <a href="<?php echo base_url('BPartner') ?>"> Manage </a>
                     </li>
                 </ul>
             </li>
