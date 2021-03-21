@@ -88,4 +88,19 @@ class PartnerModel extends CI_Model
         return $result;
     }
 
+    function getAllPartners(){
+        $this->db->select('*');
+        $this->db->from('tbl_partner');
+        $this->db->where('partner_status', 1);
+        $this->db->order_by("created_time", "desc");
+
+        $result = $this->db->get()->result();
+
+        if($result != null){
+            return $result;
+        }else{
+            return null;
+        }
+    }
+
 }
