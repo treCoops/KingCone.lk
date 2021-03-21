@@ -2169,7 +2169,7 @@ header.scrolled {
     bottom: 0;
     left: 0;
     content: '';
-    background: url(../img/service-icon_bg2.png) no-repeat center center;
+    /*background: url(../img/service-icon_bg2.png) no-repeat center center;*/
 }
 
 .services:after,
@@ -2181,7 +2181,7 @@ header.scrolled {
     bottom: 0;
     left: 0;
     content: '';
-    background: url(../img/service-icon_bg.png) no-repeat center center;
+    /*background: url(../img/service-icon_bg.png) no-repeat center center;*/
 }
 
 /*About-Us*/
@@ -2340,7 +2340,7 @@ header.scrolled {
     bottom: 0;
     left: 0;
     content: '';
-    background: url(../img/social-bg2.png) no-repeat center center;
+    /*background: url(../img/social-bg2.png) no-repeat center center;*/
     -webkit-transition: all 150ms linear;
     transition: all 150ms linear;
 }
@@ -2352,7 +2352,7 @@ header.scrolled {
     bottom: 0;
     left: 0;
     content: '';
-    background: url(../img/social-bg.png) no-repeat center center;
+    /*background: url(../img/social-bg.png) no-repeat center center;*/
     -webkit-transition: all 150ms linear;
     transition: all 150ms linear;
 }
@@ -4187,11 +4187,11 @@ _:-ms-input-placeholder, :root .icon {
 }
 
 .contacts:before {
-    background: url(../img/contacts-bg2.png) no-repeat center center;
+    /*background: url(../img/contacts-bg2.png) no-repeat center center;*/
 }
 
 .contacts:after {
-    background: url(../img/contacts-bg.png) no-repeat center center;
+    /*background: url(../img/contacts-bg.png) no-repeat center center;*/
 }
 
 .contactsInput {
