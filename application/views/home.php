@@ -61,9 +61,9 @@
             <!-- Goodies-Title -->
             <div class="col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
                 <div class="big titleShortcode">
-                    <h5 class="h3" style="color: goldenrod">Place</h5>
+                    <h4 class="h3" style="color: goldenrod; font-size: 39px !important;">How to place an order</h4>
                     <div class="emptySpace15"></div>
-                    <h2 class="h2 bottomLine">How to an order.</h2>
+<!--                    <h2 class="h2 bottomLine" style="color: goldenrod">place an order</h2>-->
                     <div class="emptySpace30"></div>
 <!--                    <p>Proin mattis rutrum magna, et pretium erat tincidunt at. Donec lectus ipsum, pulvinar id sollicitudin id, bibendum vel quam. </p>-->
 <!--                    <div class="emptySpace75 emptySpace-xs30"></div>-->
@@ -74,56 +74,92 @@
             <!-- Swiper -->
             <div class="swiper-container" data-breakpoints="1" data-xs-slides="1" data-sm-slides="2" data-md-slides="3" data-slides-per-view="4" data-space="23">
                 <div class="swiper-wrapper">
-                    <!-- Slide-1 -->
+
                     <div class="swiper-slide">
                         <div class="normall goodiesShortcode">
-                            <a href="products-detail.html"><h4 class="h4">Direct Delivery</h4></a>
+                            <a href="#"><h3 class="h4">Uber Eats</h3></a>
                             <div class="emptySpace25"></div>
-                            <a class="" style="position: relative; display: inline-block; overflow: hidden" href="products-detail.html"><img class="imgShortcode" src="<?php echo base_url('assets') ?>/img/Kong/delivery.png" alt> <span></span><span></span></a>
+                            <a class="" href="#"><img class="imgShortcode" src="<?php echo base_url('assets') ?>/img/Kong/uber.png" alt></a>
                             <div class="emptySpace5"></div>
-                             <p>Suspendisse potenti. Etiam non euismod augue. Nam aliquam sit amet tortor sit amet consectetur.</p>
+                            <p>Order through our partners on UBER eats.</p>
                         </div>
                     </div>
-                    <!-- Slide-2 -->
+
                     <div class="swiper-slide">
                         <div class="normall goodiesShortcode">
-                            <a href="products-detail.html"><h3 class="h4">Uber Eats</h3></a>
+                            <a href="https://www.providore.shop/catalogsearch/result/?q=King+Cone"><h4 class="h4">Providore</h4></a>
                             <div class="emptySpace25"></div>
-                            <a class="" style="position: relative; display: inline-block; overflow: hidden;" href="products-detail.html"><img class="imgShortcode" src="<?php echo base_url('assets') ?>/img/Kong/uber.png" alt><span></span><span></span></a>
+                            <a class="" href="https://www.providore.shop/catalogsearch/result/?q=King+Cone"><img class="imgShortcode" src="<?php echo base_url('assets') ?>/img/Kong/Providore.jpg" alt></a>
                             <div class="emptySpace5"></div>
-                            <p>Suspendisse potenti. Etiam non euismod augue. Nam aliquam sit amet tortor sit amet consectetur.</p>
+                            <p>order from www.providore.shop</p>
                         </div>
                     </div>
-                    <!-- Slide-3 -->
+
                     <div class="swiper-slide">
                         <div class="normall goodiesShortcode">
-                            <a href="products-detail.html"><h4 class="h4 ">Pick Up</h4></a>
+                            <a href="https://dropoff.lk/search?search_for=king+cone"><h4 class="h4">DropOff.Lk</h4></a>
                             <div class="emptySpace25"></div>
-                            <a class="" style="position: relative; display: inline-block; overflow: hidden" href="products-detail.html"><img class="imgShortcode" src="<?php echo base_url('assets') ?>/img/Kong/takeAway.png" alt><span></span><span></span></a>
+                            <a class="" href="https://dropoff.lk/search?search_for=king+cone"><img class="imgShortcode" src="<?php echo base_url('assets') ?>/img/Kong/dropo.png" alt></a>
                             <div class="emptySpace5"></div>
-                            <p>Suspendisse potenti. Etiam non euismod augue. Nam aliquam sit amet tortor sit amet consectetur.</p>
+                            <p>Order from dropoff.lk</p>
                         </div>
                     </div>
-                    <!-- Slide-4 -->
+
                     <div class="swiper-slide">
                         <div class="normall goodiesShortcode">
-                            <a href="products-detail.html"><h4 class="h4">Eat In</h4></a>
+                            <a href="https://celestedaily.com/search?q=king+cone"><h4 class="h4">Celeste Daily</h4></a>
                             <div class="emptySpace25"></div>
-                            <a class="" style="position: relative; display: inline-block; overflow: hidden" href="products-detail.html"><img class="imgShortcode" src="<?php echo base_url('assets') ?>/img/Kong/dineIn.png" alt><span></span><span></span></a>
+                            <a class="" href="https://celestedaily.com/search?q=king+cone"><img class="imgShortcode" src="<?php echo base_url('assets') ?>/img/Kong/celes.png" alt></a>
                             <div class="emptySpace5"></div>
-                            <p>Suspendisse potenti. Etiam non euismod augue. Nam aliquam sit amet tortor sit amet consectetur.</p>
+                            <p>Order from celeste daily</p>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="normall goodiesShortcode">
+                            <a href="#"><h4 class="h4">Direct Delivery</h4></a>
+                            <div class="emptySpace25"></div>
+                            <a class="" href="#"><img class="imgShortcode" src="<?php echo base_url('assets') ?>/img/Kong/delivery.png" alt></a>
+                            <div class="emptySpace5"></div>
+                             <p>CALL OR SEND A WHATSAPP MESSAGE ON 077 827 88 55.</p>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="normall goodiesShortcode">
+                            <a href="#"><h4 class="h4 ">Pick Up</h4></a>
+                            <div class="emptySpace25"></div>
+                            <a class="" href="#"><img class="imgShortcode" src="<?php echo base_url('assets') ?>/img/Kong/takeAway.png" alt></a>
+                            <div class="emptySpace5"></div>
+                            <a href="https://www.google.lk/maps/place/24+Seven/@6.9145127,79.8677017,17z/data=!3m1!4b1!4m5!3m4!1s0x3ae25977100beddf:0x55c03a0e4a701a42!8m2!3d6.9145127!4d79.8698904"><p>24 Seven Convenience Store</p></a>
+                            <a href="https://www.google.lk/maps/place/Supplements.lk/@6.7606327,79.5416732,9z/data=!4m8!1m2!2m1!1ssuppliments.lk!3m4!1s0x3ae25bd1021826fd:0x10d05bc62a622b57!8m2!3d6.8910235!4d79.8661637"><p>Supplements.lk</p></a>
+
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="normall goodiesShortcode">
+                            <a href="#"><h4 class="h4">Eat In</h4></a>
+                            <div class="emptySpace25"></div>
+                            <a class="" href="#"><img class="imgShortcode" src="<?php echo base_url('assets') ?>/img/Kong/dineIn.png" alt></a>
+                            <div class="emptySpace5"></div>
+                            <a href="https://www.barista.lk/"><p>Barista</p></a>
+                            <a href="https://www.facebook.com/butlerspub/"><p>The Butler's</p></a>
+                            <a href="https://www.isso.lk/"><p>Isso</p></a>
+                            <a href="http://www.ramadacolombo.com/"><p>Ramada</p></a>
+                            <a href="https://www.blackcatcolombo.com/"><p>The BlackCat Cafe</p></a>
+                            <a href="https://www.facebook.com/theviking.lk/"><p>The Viking</p></a>
                         </div>
                     </div>
                 </div>
-                <!-- Swiper-Arrow -->
-<!--                <div class="arrowWrapper">-->
-<!--                    <div class="swiper-button-prev hidden-xs hidden-sm spin spin2">-->
-<!--                        <img class="arrowShortcode" src="--><?php //echo base_url('assets') ?><!--/img/left-hover-arrow.png" alt>-->
-<!--                    </div>-->
-<!--                    <div class="swiper-button-next hidden-xs hidden-sm spin spin2">-->
-<!--                        <img class="arrowShortcode" src="--><?php //echo base_url('assets') ?><!--/img/right-hover-arrow.png" alt>-->
-<!--                    </div>-->
-<!--                </div>-->
+                <div class="arrowWrapper">
+                    <div class="swiper-button-prev hidden-xs hidden-sm" style="height: 0px">
+                        <img class="arrowShortcode" src="<?php echo base_url('assets') ?>/img/left-hover-arrow.png" alt>
+                    </div>
+                    <div class="swiper-button-next hidden-xs hidden-sm" style="height: 0px">
+                        <img class="arrowShortcode" src="<?php echo base_url('assets') ?>/img/right-hover-arrow.png" alt>
+                    </div>
+                </div>
                 <div class="swiper-pagination relative-pagination swiper-pagination-black visible-xs visible-sm"></div>
             </div>
         </div>
@@ -134,11 +170,30 @@
 <!--        </div>-->
     </div>
 </div>
+
+<!--<div class="footerSeparator"></div>-->
 <div class="emptySpace-xs60 emptySpace130 backgroundBlack"></div>
+
+
 <!-- Product -->
 <?php if($Special != null){ ?>
-<div class="bgImages">
+<div class="bgBlack">
     <!-- Swiper -->
+    <div class="container">
+        <div class="row">
+            <!-- Goodies-Title -->
+            <div class="col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
+                <div class="big titleShortcode">
+                    <h4 class="h3" style="color: goldenrod; font-size: 39px !important;">Idiosyncrasies</h4>
+                    <div class="emptySpace15 backgroundBlack"></div>
+                    <!--<h2 class="h2 bottomLine" style="color: goldenrod">place an order</h2>-->
+                    <!--<p>Proin mattis rutrum magna, et pretium erat tincidunt at. Donec lectus ipsum, pulvinar id sollicitudin id, bibendum vel quam. </p>-->
+                    <!--<div class="emptySpace75 emptySpace-xs30"></div>-->
+                </div>
+            </div>
+        </div>
+    </div>
+
     <div class="swiper-container" data-loop="1">
         <!-- Swiper-Arrow -->
         <div class="arrowWrapper">
@@ -169,7 +224,7 @@
                                         <div class="emptySpace50 emptySpace-xs30"></div>
                                         <div class="normall ingShortcode2">
                                             <div class="emptySpace55 emptySpace-md30"></div>
-                                            <a class="sweetPrice2">Rs. <?php echo $row->sp_price; ?>.00</a>
+                                            <a class="sweetPrice" style="font-size: 20px !important;"><?php echo $row->sp_price; ?></a>
                                         </div>
                                         <div class="emptySpace95 emptySpace-md60"></div>
                                     </div>
@@ -202,12 +257,8 @@
             <!-- Sweet-Selection-Title -->
             <div class="col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
                 <div class="big titleShortcode">
-                    <h5 class="h5">Discover More Of</h5>
                     <div class="emptySpace20"></div>
-                    <h2 class="h2 bottomLine">Our Sweet Selection</h2>
-                    <div class="emptySpace30"></div>
-                    <p>Proin mattis rutrum magna, et pretium erat tincidunt at. Donec lectus ipsum, pulvinar id sollicitudin id, bibendum vel quam. </p>
-                    <div class="emptySpace75 emptySpace-xs30"></div>
+                    <h2 class="h2 bottomLine" style="color: goldenrod;">Our Selection</h2>
                 </div>
             </div>
         </div>
@@ -221,7 +272,7 @@
                     <div class="emptySpace5"></div>
                     <p><?php echo $row->flavour_description ?></p>
                     <div class="emptySpace20"></div>
-                    <div class="sweetPrice">Rs.<?php echo $row->flavour_price ?></div>
+                    <div class="sweetPrice" style="font-size: 20px !important;"><?php echo $row->flavour_price ?></div>
                 </div>
             </div>
             <?php } ?>
@@ -243,9 +294,8 @@
             <!-- Goodies-Title -->
             <div class="col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
                 <div class="big titleShortcode">
-                    <h5 class="h3" style="color: goldenrod">Our</h5>
+                    <h5 class="h3" style="color: goldenrod">Our Partners</h5>
                     <div class="emptySpace15"></div>
-                    <h2 class="h2 bottomLine">Partners.</h2>
                     <div class="emptySpace30"></div>
                     <!--<p>Proin mattis rutrum magna, et pretium erat tincidunt at. Donec lectus ipsum, pulvinar id sollicitudin id, bibendum vel quam. </p>-->
                     <!--<div class="emptySpace75 emptySpace-xs30"></div>-->
@@ -293,11 +343,9 @@
             <div class="col-sm-6 col-sm-offset-3">
                 <div class="big titleShortcode">
                     <div class="emptySpace120 emptySpace-xs60"></div>
-                    <h5 class="h5">Our Clients</h5>
+                    <h5 class="h5">Our Clients'</h5>
                     <div class="emptySpace15"></div>
-                    <h2 class="h2 bottomLine">About Us</h2>
-                    <div class="emptySpace35"></div>
-                    <p>Proin mattis rutrum magna, et pretium erat tincidunt at. Donec lectus ipsum, pulvinar id sollicitudin id, bibendum vel quam. </p>
+                    <h2 class="h2 bottomLine">Testimonials</h2>
                 </div>
                 <div class="emptySpace80 emptySpace-xs30"></div>
             </div>

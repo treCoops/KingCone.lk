@@ -316,8 +316,7 @@
                     required: true
                 },
                 txtFlavourPrice: {
-                    required: true,
-                    digits: true
+                    required: true
                 }
             },
             messages: {
@@ -328,8 +327,7 @@
                     required: 'Flavour Description required!'
                 },
                 txtFlavourPrice: {
-                    required: 'Flavour Price required!',
-                    digits: 'Flavour price must be a digit value'
+                    required: 'Flavour Price required!'
                 }
             },
             submitHandler: function (form) {
@@ -378,8 +376,7 @@
                     required: true
                 },
                 txtUFlavourPrice: {
-                    required: true,
-                    digits: true
+                    required: true
                 }
             },
             messages: {
@@ -390,8 +387,7 @@
                     required: 'Flavour Description required!'
                 },
                 txtUFlavourPrice: {
-                    required: 'Flavour Price required!',
-                    digits: 'Flavour price must be a digit value'
+                    required: 'Flavour Price required!'
                 }
             },
             submitHandler: function (form) {

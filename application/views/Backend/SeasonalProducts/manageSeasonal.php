@@ -342,8 +342,7 @@
                     required: true
                 },
                 txtProductPrice: {
-                    required: true,
-                    digits: true
+                    required: true
                 }
             },
             messages: {
@@ -354,8 +353,7 @@
                     required: 'Product Description required!'
                 },
                 txtProductPrice: {
-                    required: 'Product Price required!',
-                    digits: 'Product price must be a digit value'
+                    required: 'Product Price required!'
                 }
             },
             submitHandler: function (form) {
@@ -404,8 +402,7 @@
                     required: true
                 },
                 txtUProductPrice: {
-                    required: true,
-                    digits: true
+                    required: true
                 }
             },
             messages: {
@@ -416,8 +413,7 @@
                     required: 'Product Description required!'
                 },
                 txtUProductPrice: {
-                    required: 'Product Price required!',
-                    digits: 'Product price must be a digit value'
+                    required: 'Product Price required!'
                 }
             },
             submitHandler: function (form) {

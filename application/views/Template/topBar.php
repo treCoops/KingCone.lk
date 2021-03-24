@@ -25,9 +25,9 @@
                 </ul>
                 <ul class="RightMenu">
                     <?php if($content == 'partners'){ ?>
-                        <li><a class="headerActive" href="<?php echo base_url('Partners') ?>">Partners</a></li>
+                        <li><a class="headerActive" href="<?php echo base_url('Partners') ?>">Our Partners</a></li>
                     <?php } else { ?>
-                        <li><a href="<?php echo base_url('Partners') ?>">Partners</a></li>
+                        <li><a href="<?php echo base_url('Partners') ?>">Our Partners</a></li>
                     <?php } ?>
 
                     <?php if($content == 'about'){ ?>

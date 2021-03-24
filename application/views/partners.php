@@ -8,10 +8,10 @@
                 <!-- Our-Services-Title -->
                 <div class="col-sm-8 col-sm-offset-2">
                     <div class="big titleShortcode">
-                        <h3 class="h3">Take A Look At</h3>
-                        <h2 class="h1">Our Services</h2>
+                        <h2 class="h1">Our Partners</h2>
                         <div class="emptySpace5"></div>
-                        <p>Proin mattis rutrum magna, et pretium erat tincidunt at. Donec lectus ipsum, pulvinar id sollicitudin id, bibendum vel quam. Suspendisse nec ante non lacusvel sed sem</p>
+                        <p>The best partnerships are not dependent on a mere common goal but on a shared path of equality, desire and passion.</p>
+                        <p style="color: goldenrod">Where we go one, we go all!</p>
                     </div>
                 </div>
             </div>

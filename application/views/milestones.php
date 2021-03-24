@@ -3,19 +3,16 @@
     <div class="container">
         <div class="cell-view tableCellVH2">
             <div class="emptySpace100 emptySpace-md50"></div>
-            <div class="emptySpace115 emptySpace-md50"></div>
             <div class="row">
                 <!-- Our-Blog-Title -->
                 <div class="col-sm-8 col-sm-offset-2">
                     <div class="big titleShortcode">
-                        <h3 class="h3">Read And Join</h3>
-                        <h2 class="h1">Our Blog</h2>
+                        <h2 class="h1">Milestones</h2>
                         <div class="emptySpace5"></div>
-                        <p>Proin mattis rutrum magna, et pretium erat tincidunt at. Donec lectus ipsum, pulvinar id sollicitudin id, bibendum vel quam. Suspendisse nec ante non lacusvel sed sem </p>
+                        <p>Just half of small businesses survive their first three years and the half that do not make it, often fail before they have had a chance to hit key business milestones. We are glad to have achieved a few.</p>
                     </div>
                 </div>
             </div>
-            <div class="emptySpace50"></div>
         </div>
     </div>
 </div>
@@ -23,21 +20,6 @@
 
 <div class="bgImages opacityLayer" style="background-image: url(assets/img/Kong/KONG2.jpg); background-position: 50% 50%; background-size: cover">
     <div class="container">
-        <div class="row">
-            <div class="emptySpace-xs60 emptySpace120"></div>
-            <!-- Sweet-History-Title -->
-            <div class="col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
-                <div class="big titleShortcode">
-                    <h5 class="h5">Moments Of</h5>
-                    <div class="emptySpace15"></div>
-                    <h2 class="h2 bottomLine">Our Sweet History</h2>
-                    <div class="emptySpace35"></div>
-                    <p>Proin mattis rutrum magna, et pretium erat tincidunt at. Donec lectus ipsum, pulvinar id sollicitudin id, bibendum vel quam.</p>
-                </div>
-                <div class="emptySpace55 emptySpace-xs30"></div>
-            </div>
-        </div>
-
         <div class="row">
             <?php $a=1; foreach ($Milestones as $row) { ?>
             <?php if($a % 2 == 0){ ?>
